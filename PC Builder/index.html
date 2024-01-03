@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/favicon.ico">
+    <title>PC Builder</title>
+</head>
+<body>   
+    <header>
+        <nav>
+            <button id="toggle-cart-button"></button>
+        </nav>
+    </header>
+    <div id="main-container">
+        <h1 class="item-category-title">Motherboards</h1>
+        <div class="item-container">
+            <div class="item-category motherboard"></div>
+        </div>
+        <h1 class="item-category-title">CPUs</h1>
+        <div class="item-container">
+            <div class="item-category cpu"></div>
+        </div>
+        <h1 class="item-category-title">GPUs</h1>
+        <div class="item-container">
+            <div class="item-category gpu"></div>
+         </div>
+        <h1 class="item-category-title">RAM</h1>
+        <div class="item-container">
+            <div class="item-category ram"></div>
+        </div>
+        <h1 class="item-category-title">Hard Drives</h1>
+        <div class="item-container">
+            <div class="item-category hdd"></div>
+        </div>
+        <h1 class="item-category-title">Solid State Drives</h1>
+        <div class="item-container">
+            <div class="item-category ssd"></div>
+        </div>
+        <h1 class="item-category-title">Power Supply Units</h1>
+        <div class="item-container">
+            <div class="item-category psu"></div>
+        </div>
+        <h1 class="item-category-title">Monitors</h1>
+        <div class="item-container">
+            <div class="item-category monitor"></div>
+        </div>
+        <h1 class="item-category-title">Mice</h1>
+        <div class="item-container">
+            <div class="item-category mouse"></div>
+        </div>
+        <h1 class="item-category-title">Keyboards</h1>
+        <div class="item-container">
+            <div class="item-category keyboard"></div>
+        </div>
+        <hr id="rating-separator">
+        <div id="rating-container">
+            <div id="rating-submit-container">
+                <textarea id="rating-text-input" placeholder="Write your review here..."></textarea>
+                <div id="stars-submit-container">
+                    <div id="star-container">
+                        <button id="star-1" class="star"></button>
+                        <button id="star-2" class="star"></button>
+                        <button id="star-3" class="star"></button>
+                        <button id="star-4" class="star"></button>
+                        <button id="star-5" class="star"></button>
+                    </div>
+                    <button id="submit-button" onclick="submitRating()">Submit</button>
+                </div>
+            </div>
+            <div id="rating-list-container">
+
+            </div>
+        </div>
+        <div id="cart">
+            <div id="cart-header">
+                <button id="close-cart-button"></button>
+            </div>
+            <div id="cart-content">
+                <div class="cart-item-category motherboard">
+                    <div class="cart-item-default">
+                        <img class="cart-item-image" src="icons/motherboardicon.png" alt="Icon of a motherboard" title="Icon of a motherboard">
+                        <p class="cart-item-name">Motherboard</p>
+                    </div>
+                </div>
+                <div class="cart-item-category cpu">
+                    <div class="cart-item-default">
+                        <img class="cart-item-image" src="icons/cpuicon.png" alt="Icon of a motherboard" title="Icon of a motherboard">
+                        <p class="cart-item-name">CPU</p>
+                    </div>
+                </div>
+                <div class="cart-item-category gpu">
+                    <div class="cart-item-default">
+                        <img class="cart-item-image" src="icons/gpuicon.png" alt="Icon of a motherboard" title="Icon of a motherboard">
+                        <p class="cart-item-name">GPU</p>
+                    </div>
+                </div>
+                <div class="cart-item-category ram">
+                    <div class="cart-item-default">
+                        <img class="cart-item-image" src="icons/ramicon.png" alt="Icon of a motherboard" title="Icon of a motherboard">
+                        <p class="cart-item-name">RAM</p>
+                    </div>
+                </div>
+                <div class="cart-item-category hdd">
+                    <div class="cart-item-default">
+                        <img class="cart-item-image" src="icons/hddicon.png" alt="Icon of a motherboard" title="Icon of a motherboard">
+                        <p class="cart-item-name">Hard Drive</p>
+                    </div>
+                </div>
+                <div class="cart-item-category ssd">
+                    <div class="cart-item-default">
+                        <img class="cart-item-image" src="icons/ssdicon.png" alt="Icon of a motherboard" title="Icon of a motherboard">
+                        <p class="cart-item-name">Solid State Drive</p>
+                    </div>
+                </div>
+                <div class="cart-item-category psu">
+                    <div class="cart-item-default">
+                        <img class="cart-item-image" src="icons/psuicon.png" alt="Icon of a motherboard" title="Icon of a motherboard">
+                        <p class="cart-item-name">Power Supply Unit</p>               
+                    </div>
+                </div>
+                <div class="cart-item-category monitor">
+                    <div class="cart-item-default">
+                        <img class="cart-item-image" src="icons/monitoricon.png" alt="Icon of a motherboard" title="Icon of a motherboard">
+                        <p class="cart-item-name">Monitor</p>
+                    </div>
+                </div>
+                <div class="cart-item-category mouse">
+                    <div class="cart-item-default">
+                        <img class="cart-item-image" src="icons/mouseicon.png" alt="Icon of a motherboard" title="Icon of a motherboard">
+                        <p class="cart-item-name">Mouse</p>
+                    </div>
+                </div>
+                <div class="cart-item-category keyboard">
+                    <div class="cart-item-default">
+                        <img class="cart-item-image" src="icons/keyboardicon.png" alt="Icon of a motherboard" title="Icon of a motherboard">
+                        <p class="cart-item-name">Keyboard</p>
+                    </div>
+                </div>
+            </div>
+            <div id="cart-footer">
+                <p id="missing-items-msgbox"></p>
+                <div id="cart-checkout">
+                    <p id="total-price">Total: $0</p>
+                    <button id="checkout-button" onclick="checkout()">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="program.js"></script>
+</body>
+</html>
