@@ -1,0 +1,23 @@
+body
+{
+    background-color: aliceblue;
+}
+.flex-container {
+  display: flex;
+  
+}
+
+.flex-container > div {
+  background-color: rgb(100, 149, 237);
+  color: white;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 1.5em;
+  overflow: auto;
+}
+.first > div
+{
+    background-color: rgb(78, 114, 211);
+}

@@ -1,0 +1,14 @@
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\bin\Debug\net7.0\Adminisztrációs Alkalmazás.exe
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\bin\Debug\net7.0\Adminisztrációs Alkalmazás.deps.json
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\bin\Debug\net7.0\Adminisztrációs Alkalmazás.runtimeconfig.json
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\bin\Debug\net7.0\Adminisztrációs Alkalmazás.dll
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\bin\Debug\net7.0\Adminisztrációs Alkalmazás.pdb
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\obj\Debug\net7.0\Adminisztrációs Alkalmazás.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\obj\Debug\net7.0\Adminisztrációs Alkalmazás.AssemblyInfoInputs.cache
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\obj\Debug\net7.0\Adminisztrációs Alkalmazás.AssemblyInfo.cs
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\obj\Debug\net7.0\Adminisztrációs Alkalmazás.csproj.CoreCompileInputs.cache
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\obj\Debug\net7.0\Adminisztrációs Alkalmazás.dll
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\obj\Debug\net7.0\refint\Adminisztrációs Alkalmazás.dll
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\obj\Debug\net7.0\Adminisztrációs Alkalmazás.pdb
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\obj\Debug\net7.0\Adminisztrációs Alkalmazás.genruntimeconfig.cache
+C:\Users\dave118\source\repos\Adminisztrációs Alkalmazás\obj\Debug\net7.0\ref\Adminisztrációs Alkalmazás.dll

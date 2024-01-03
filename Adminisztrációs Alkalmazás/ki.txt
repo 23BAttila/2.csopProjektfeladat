@@ -1,0 +1,5 @@
+keyboard;dsfklghsdhkgl;fdsklghsdfkhl;342556
+monitor;klfdgfhksdl;fdklghsdfklh;34578
+cpu;sdfklghjdfgkhl;sdfkglsdfklg;4578
+gpu;dflkghsdfhgl;sdflkghdsfhkl;43577
+cpu;fsdklgsdflgh;sdflkghsdfhklg;45377
