@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2f363d;
+    
+}
+
+#product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.product {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    width: 20% ;
+    min-width: 400px;
+}
+
+.product h2 {
+    margin: 0;
+}
+
+.product .details {
+    display: none;
+}
+
